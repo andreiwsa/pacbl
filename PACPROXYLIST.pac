@@ -29,7 +29,7 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, ".cfapi.net") ||
 		dnsDomainIs(host, ".smods.ru") ||
 		dnsDomainIs(host, ".rutracker.org") ||
-        dnsDomainIs(host, "googlevideo.com") ||
+        	dnsDomainIs(host, "googlevideo.com") ||
 		dnsDomainIs(host, ".reddit.com") ||
 		dnsDomainIs(host, "youtu.be") ||
 		dnsDomainIs(host, "youtube.com") ||
