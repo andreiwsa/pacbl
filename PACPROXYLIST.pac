@@ -7,7 +7,7 @@ function FindProxyForURL(url, host) {
         return "DIRECT";
     }
     //  — через 127.0.0.1:2080
-    if (
+        if (
 		dnsDomainIs(host, ".greasyfork.org") ||
 		dnsDomainIs(host, ".dailymotion.com") ||
 		dnsDomainIs(host, ".discord.com") ||
@@ -29,7 +29,7 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, ".cfapi.net") ||
 		dnsDomainIs(host, ".smods.ru") ||
 		dnsDomainIs(host, ".rutracker.org") ||
-        	dnsDomainIs(host, "googlevideo.com") ||
+        dnsDomainIs(host, "googlevideo.com") ||
 		dnsDomainIs(host, ".reddit.com") ||
 		dnsDomainIs(host, "youtu.be") ||
 		dnsDomainIs(host, "youtube.com") ||
@@ -91,8 +91,7 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, "archiveofourown.org") ||
 		dnsDomainIs(host, "rutor.info") ||
 		dnsDomainIs(host, "flibusta.site") ||
-		face
-        host == "some-specific-domain.com"
+		dnsDomainIs(host, "4pda.to") 
     ) {
         return "PROXY 127.0.0.1:2080";
     }
