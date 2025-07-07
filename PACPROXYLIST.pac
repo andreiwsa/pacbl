@@ -29,7 +29,7 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, ".cfapi.net") ||
 		dnsDomainIs(host, ".smods.ru") ||
 		dnsDomainIs(host, ".rutracker.org") ||
-        dnsDomainIs(host, "googlevideo.com") ||
+		dnsDomainIs(host, "googlevideo.com") ||
 		dnsDomainIs(host, ".reddit.com") ||
 		dnsDomainIs(host, "youtu.be") ||
 		dnsDomainIs(host, "youtube.com") ||
@@ -39,14 +39,12 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, ".redgifs.tv") ||
 		dnsDomainIs(host, ".redgifs.co") ||
 		dnsDomainIs(host, "redgifs.co") ||
-		dnsDomainIs(host, "www.redgifs.com") ||
 		dnsDomainIs(host, "doramatv.live") ||
 		dnsDomainIs(host, "rt.pornhub.com") ||
 		dnsDomainIs(host, "pornhub.com") ||
 		dnsDomainIs(host, "ficbook.net") ||
 		dnsDomainIs(host, "1fichier.com") ||
-		dnsDomainIs(host, "1.doramatv.one") ||
-		dnsDomainIs(host, "www.youtube.com") ||
+		dnsDomainIs(host, "doramatv.one") ||
 		dnsDomainIs(host, "yt.be") ||
 		dnsDomainIs(host, "ytimg.com") ||
 		dnsDomainIs(host, "ggpht.com") ||
@@ -64,7 +62,6 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, "googleusercontent.com") ||
 		dnsDomainIs(host, "googleapis.com") ||
 		dnsDomainIs(host, "gstatic.com") ||
-		dnsDomainIs(host, "www.gstatic.com") ||
 		dnsDomainIs(host, "manifest.googlevideo.com") ||
 		dnsDomainIs(host, "fonts.googleapis.com") ||
 		dnsDomainIs(host, "i.ytimg.com") ||
@@ -78,19 +75,21 @@ function FindProxyForURL(url, host) {
 		dnsDomainIs(host, "doubleclick.net") ||
 		dnsDomainIs(host, "signaler-pa.youtube.com") ||
 		dnsDomainIs(host, "discord.com") ||
-		dnsDomainIs(host, "17.doramalive.news") ||
-		dnsDomainIs(host, "16.doramalive.news") ||
-		dnsDomainIs(host, "15.doramalive.news") ||
 		dnsDomainIs(host, "doramalive.news") ||
 		dnsDomainIs(host, "doramalive.live") ||
 		dnsDomainIs(host, "hd-rezka.one") ||
 		dnsDomainIs(host, "forums.spacebattles.com") ||
-		dnsDomainIs(host, "hd3.lordserial7-9.xyz") ||
+		dnsDomainIs(host, "lordserial7-9.xyz") ||
 		dnsDomainIs(host, "seasonvar.ru") ||
 		dnsDomainIs(host, "civitai.com") ||
 		dnsDomainIs(host, "archiveofourown.org") ||
 		dnsDomainIs(host, "rutor.info") ||
 		dnsDomainIs(host, "flibusta.site") ||
+		dnsDomainIs(host, "bunkr.ws") ||
+		dnsDomainIs(host, "vikingfile.com") ||
+		dnsDomainIs(host, "vikingf1le.us.to") ||
+		dnsDomainIs(host, "mixdrop.ag") ||
+		dnsDomainIs(host, "terminal.lc") ||
 		dnsDomainIs(host, "4pda.to") 
     ) {
         return "PROXY 127.0.0.1:2080";
