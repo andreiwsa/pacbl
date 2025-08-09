@@ -2128,6 +2128,7 @@ const items = [
 "uploady.io",
 "lsst.org",
 "speedtest.net",
+"www.speedtest.net",
 "grok.com"
 ];
 
@@ -2358,4 +2359,5 @@ function FindProxyForURL(url, host) {
 
     // 5. Всё остальное — напрямую
     return "DIRECT";
+
 }
