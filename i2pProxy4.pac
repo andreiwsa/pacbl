@@ -2129,7 +2129,8 @@ const items = [
 "lsst.org",
 "speedtest.net",
 "www.speedtest.net",
-"grok.com"
+"grok.com",
+"webnovel.com"
 ];
 
 const youtube = [
@@ -2361,3 +2362,4 @@ function FindProxyForURL(url, host) {
     return "DIRECT";
 
 }
+
