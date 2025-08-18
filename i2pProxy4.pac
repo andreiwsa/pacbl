@@ -2130,7 +2130,8 @@ const items = [
 "speedtest.net",
 "www.speedtest.net",
 "grok.com",
-"webnovel.com"
+"webnovel.com",
+"fanmtl.com"
 ];
 
 const youtube = [
@@ -2362,4 +2363,5 @@ function FindProxyForURL(url, host) {
     return "DIRECT";
 
 }
+
 
