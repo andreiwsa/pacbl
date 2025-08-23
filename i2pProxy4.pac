@@ -2131,6 +2131,8 @@ const items = [
 "www.speedtest.net",
 "grok.com",
 "webnovel.com",
+"cheatengine.net",
+"opencheattables.org",
 "fanmtl.com"
 ];
 
@@ -2363,5 +2365,6 @@ function FindProxyForURL(url, host) {
     return "DIRECT";
 
 }
+
 
 
